@@ -21,8 +21,4 @@ public class Machine implements Serializable{
 	private String architecture;
 	private String osVersion;
 	
-	public Machine(String ip2, String name2, String os2, String architecture2, String osVersion2) {
-		// TODO Auto-generated constructor stub
-	}
-		
 }
