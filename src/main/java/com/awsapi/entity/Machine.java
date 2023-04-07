@@ -12,9 +12,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Machine implements Serializable{
-	/**
-	 * 
-	 */
+
 	private static final long serialVersionUID = 1L;
 	
 	private String ip;
@@ -22,5 +20,9 @@ public class Machine implements Serializable{
 	private String os;
 	private String architecture;
 	private String osVersion;
+	
+	public Machine(String ip2, String name2, String os2, String architecture2, String osVersion2) {
+		// TODO Auto-generated constructor stub
+	}
 		
 }

@@ -32,7 +32,7 @@ public class DetailedMachine extends Machine implements Serializable{
 			String javaVendorUrl
 			)
 	{
-		super();
+		super(ip, name, os, architecture, osVersion);
 		this.javaVersion = javaVersion;
 		this.javaVendor = javaVendor;
 		this.javaVendorUrl = javaVendorUrl;
